@@ -1,0 +1,6 @@
+# User-specific files/folders
+vc14/
+
+# Maps (keep them in a ZIP file)
+*.otb
+*.otbm

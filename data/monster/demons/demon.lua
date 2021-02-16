@@ -100,7 +100,7 @@ monster.loot = {
 	{name = "red gem", chance = 2220},
 	{name = "demonic essence", chance = 14630},
 	{name = "talon", chance = 3430},
-	{name = "platinum coin", chance = 90540, maxCount = 8},
+	{name = "platinum coin", chance = 90540, maxCount = 9},
 	{name = "might ring", chance = 1890},
 	{name = "stealth ring", chance = 2170},
 	{name = "platinum amulet", chance = 680},
@@ -110,29 +110,29 @@ monster.loot = {
 	{name = "giant sword", chance = 1980},
 	{name = "ice rapier", chance = 1550},
 	{name = "golden sickle", chance = 1440},
-	{name = "fire axe", chance = 4030},
-	{name = "devil helmet", chance = 1180},
+	{name = "fire axe", chance = 4530},
+	{name = "devil helmet", chance = 1280},
 	{name = "golden legs", chance = 440},
-	{name = "magic plate armor", chance = 130},
-	{name = "mastermind shield", chance = 480},
-	{name = "demon shield", chance = 740},
+	{name = "magic plate armor", chance = 170},
+	{name = "mastermind shield", chance = 580},
+	{name = "demon shield", chance = 840},
 	{name = "fire mushroom", chance = 19660, maxCount = 6},
 	{name = "demon horn", chance = 14920},
-	{name = "assassin star", chance = 12550, maxCount = 10},
+	{name = "assassin star", chance = 12550, maxCount = 15},
 	{name = "demonrage sword", chance = 70},
 	{id = 7393, chance = 90},
-	{name = "great mana potion", chance = 22220, maxCount = 3},
-	{name = "ultimate health potion", chance = 19540, maxCount = 3},
-	{name = "great spirit potion", chance = 18510, maxCount = 3}
+	{name = "great mana potion", chance = 32220, maxCount = 3},
+	{name = "ultimate health potion", chance = 29540, maxCount = 3},
+	{name = "great spirit potion", chance = 28510, maxCount = 3}
 }
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -520},
 	{name ="combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = 0, maxDamage = -120, range = 7, target = false},
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_FIREDAMAGE, minDamage = -150, maxDamage = -250, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true},
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_FIREDAMAGE, minDamage = -160, maxDamage = -260, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true},
 	{name ="firefield", interval = 2000, chance = 10, range = 7, radius = 1, shootEffect = CONST_ANI_FIRE, target = true},
 	{name ="combat", interval = 2000, chance = 10, type = COMBAT_LIFEDRAIN, minDamage = -300, maxDamage = -490, length = 8, spread = 3, effect = CONST_ME_PURPLEENERGY, target = false},
-	{name ="combat", interval = 2000, chance = 10, type = COMBAT_ENERGYDAMAGE, minDamage = -210, maxDamage = -300, range = 1, shootEffect = CONST_ANI_ENERGY, target = false},
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_ENERGYDAMAGE, minDamage = -240, maxDamage = -340, range = 1, shootEffect = CONST_ANI_ENERGY, target = false},
 	{name ="speed", interval = 2000, chance = 15, speedChange = -700, radius = 1, effect = CONST_ME_MAGIC_RED, target = true, duration = 30000}
 }
 

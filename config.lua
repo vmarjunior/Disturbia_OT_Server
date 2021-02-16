@@ -122,7 +122,7 @@ emoteSpells = false
 classicEquipmentSlots = false
 allowWalkthrough = true
 coinPacketSize = 25
-coinImagesURL = "http://127.0.0.1/images/store/"
+coinImagesURL = "http://127.0.0.1:8080/images/store/"
 classicAttackSpeed = false
 showScriptsLogInConsole = false
 
@@ -130,17 +130,17 @@ showScriptsLogInConsole = false
 -- NOTE: serverSaveNotifyDuration in minutes
 serverSaveNotifyMessage = true
 serverSaveNotifyDuration = 5
-serverSaveCleanMap = false
+serverSaveCleanMap = true
 serverSaveClose = false
-serverSaveShutdown = true
+serverSaveShutdown = false
 
 -- Rates
 -- NOTE: rateExp, rateSkill and rateMagic is used as a fallback only
 -- To configure rates see file data/stages.lua
-rateExp = 1
-rateSkill = 1
-rateLoot = 1
-rateMagic = 1
+rateExp = 5
+rateSkill = 5
+rateLoot = 2
+rateMagic = 5
 rateSpawn = 1
 
 -- Monster rates
@@ -166,7 +166,7 @@ defaultPriority = "high"
 startupDatabaseOptimization = true
 
 -- Status server information
-ownerName = "OTServBR-Global"
+ownerName = "Disturbia"
 ownerEmail = ""
-url = "https://github.com/opentibiabr/otservbr-global"
+url = "https://github.com/vmarjunior/Disturbia_OT_Server"
 location = "South America"
